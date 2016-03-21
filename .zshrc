@@ -1,20 +1,10 @@
-### CUSTOM ######
-
-export PATH=$PATH:˜/Development/android-sdk/platform-tools:˜/Development/android-sdk/tools
-
-# GIT
-alias gs='git status'
-
-# GENERAL
-alias vr='vi ~/.vimrc'
-alias vz='vi ~/.zshrc'
-alias zfresh='source ~/.zshrc'
-
-
-##############
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/anny/.oh-my-zsh
+export ZSH=/Users/annygakhokidze/.oh-my-zsh
 
+export PATH=$PATH:~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome:/Users/annygakhokidze:~/Development/android-sdk/platform-tools:~/Development/android-sdk/tools
+
+# Export my aliases if they exist
+[ -f .bash_profile_aliases ] && source .bash_profile_aliases 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -67,7 +57,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -96,5 +86,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export NVM_DIR="/Users/anny/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

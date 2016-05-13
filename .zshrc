@@ -1,10 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/annygakhokidze/.oh-my-zsh
 
-export PATH=$PATH:~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome:/Users/annygakhokidze:~/Development/android-sdk/platform-tools:~/Development/android-sdk/tools
+#source ~/.bash_profile_aliases
 
-# Export my aliases if they exist
-[ -f .bash_profile_aliases ] && source .bash_profile_aliases 
+#alias gs='git status'
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -57,7 +56,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -86,3 +85,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#source ~/.bash_profile_aliases
+
+export WORKON_HOME=~/Envs
+source /usr/local/bin/virtualenvwrapper.sh
+source ~/.bash_profile_aliases

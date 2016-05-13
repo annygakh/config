@@ -4,3 +4,4 @@ cp ~/.bashrc ./
 cp ~/.zshrc ./
 cp -R ~/.vim/ ./.vim
 cp ~/.gitconfig ./
+cp ~/.tmux.conf ./
